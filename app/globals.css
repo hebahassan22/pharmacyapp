@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Custom global styles */
+body {
+  @apply text-gray-800 bg-gray-100;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply px-4 py-2 text-white transition bg-blue-600 rounded-lg shadow hover:bg-blue-700;
+}
+.btn-danger {
+  @apply px-4 py-2 text-white transition bg-red-500 rounded-lg shadow hover:bg-red-600;
+}
+
+/* Cards */
+.card {
+  @apply p-6 transition bg-white shadow-md rounded-xl hover:shadow-lg;
+}
